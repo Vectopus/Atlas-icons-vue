@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="buttocks"><path class="cls-1" d="M5.32,16.77h0a3.26,3.26,0,0,0,2.3,1h.56A3.82,3.82,0,0,0,12,13.91V11.84a6.52,6.52,0,0,0-1.91-4.61h0"/><path class="cls-1" d="M18.68,16.77h0a3.26,3.26,0,0,1-2.3,1h-.56A3.82,3.82,0,0,1,12,13.91V11.84a6.52,6.52,0,0,1,1.91-4.61h0"/><path class="cls-1" d="M10.09,23.45a40.21,40.21,0,0,1,.4-5.69l.14-.92"/><path class="cls-1" d="M13.37,16.84l.14.92a40.21,40.21,0,0,1,.4,5.69"/><path class="cls-1" d="M3.41.55V1.79a13.19,13.19,0,0,1-1,5h0a13.38,13.38,0,0,0-1,5v.43a59.23,59.23,0,0,0,.44,7.17l.51,4.14"/><path class="cls-1" d="M20.59.55V1.79a13.19,13.19,0,0,0,1,5h0a13.38,13.38,0,0,1,.95,5v.51A57.67,57.67,0,0,1,22,19.54l-.49,3.91"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

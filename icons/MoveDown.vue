@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path class="cls-1" d="M13,22.48,7.82,17.34a2,2,0,0,1,2.86-2.86L12,15.8V6.36a2,2,0,0,1,1.74-2,1.92,1.92,0,0,1,2.08,1.9V12l5,.72a1.91,1.91,0,0,1,1.64,1.89h0a17.18,17.18,0,0,1-1.82,7.71l-.09.18"/><polyline class="cls-1" points="7.23 7.21 4.36 10.07 1.5 7.21"/><line class="cls-1" x1="4.36" y1="0.52" x2="4.36" y2="10.07"/></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path class="cls-1" d="M10.1,3.48A1.9,1.9,0,0,1,12,1.58h0a1.9,1.9,0,0,1,1.9,1.9"/><path class="cls-1" d="M13.9,4.43a1.9,1.9,0,0,1,1.9-1.9h0a1.9,1.9,0,0,1,1.9,1.9"/><path class="cls-1" d="M17.7,12V7.28a1.9,1.9,0,0,1,1.9-1.9h0a1.9,1.9,0,0,1,1.9,1.9v7.6a9.81,9.81,0,0,1-.71,3.66l-.48,1.22a9.81,9.81,0,0,0-.71,3.66h0"/><path class="cls-1" d="M6.3,14.87V4.43a1.9,1.9,0,0,1,1.9-1.9h0a1.9,1.9,0,0,1,1.9,1.9V12"/><line class="cls-1" x1="10.1" y1="12.02" x2="10.1" y2="3.48"/><line class="cls-1" x1="13.9" y1="12.02" x2="13.9" y2="3.48"/><line class="cls-1" x1="17.7" y1="12.02" x2="17.7" y2="4.43"/><path class="cls-1" d="M6.3,23.42h0A4.59,4.59,0,0,0,5,20.18L3.61,18.84A3.81,3.81,0,0,1,2.5,16.15V12.64a2.51,2.51,0,0,1,1.3-2.26,2.39,2.39,0,0,1,2.5.22"/></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

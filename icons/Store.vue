@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="shop"><path class="cls-1" d="M7.23,6.27v5.25a2.39,2.39,0,0,1-4.78,0L4.36,6.27Z"/><path class="cls-1" d="M12,6.27v5.25a2.39,2.39,0,1,1-4.77,0V6.27Z"/><path class="cls-1" d="M16.77,6.27v5.25a2.39,2.39,0,1,1-4.77,0V6.27Z"/><path class="cls-1" d="M21.55,11.52a2.39,2.39,0,0,1-4.78,0V6.27h2.87Z"/><path class="cls-1" d="M19.64,13.91V22.5H4.36V13.91h.48a2.39,2.39,0,0,0,2.39-2.39,2.39,2.39,0,1,0,4.77,0,2.39,2.39,0,1,0,4.77,0,2.39,2.39,0,0,0,2.39,2.39Z"/><polyline class="cls-1" points="1.5 22.5 4.36 22.5 19.64 22.5 22.5 22.5"/><rect class="cls-1" x="6.27" y="1.5" width="11.45" height="4.77"/><rect class="cls-1" x="8.18" y="17.73" width="7.64" height="4.77"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-linecap:square;stroke-miterlimit:10;}
+</style>

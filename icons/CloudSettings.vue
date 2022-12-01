@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="roll_brush" data-name="roll brush"><circle class="cls-1" cx="12" cy="17.75" r="2.88"/><line class="cls-1" x1="12" y1="14.88" x2="12" y2="12.96"/><line class="cls-1" x1="12" y1="22.55" x2="12" y2="20.63"/><line class="cls-1" x1="12" y1="14.88" x2="12" y2="12.96"/><line class="cls-1" x1="12" y1="22.55" x2="12" y2="20.63"/><line class="cls-1" x1="9.5" y1="16.31" x2="7.84" y2="15.35"/><line class="cls-1" x1="16.15" y1="20.15" x2="14.49" y2="19.19"/><line class="cls-1" x1="9.5" y1="16.31" x2="7.84" y2="15.35"/><line class="cls-1" x1="16.15" y1="20.15" x2="14.49" y2="19.19"/><line class="cls-1" x1="14.49" y1="16.31" x2="16.15" y2="15.35"/><line class="cls-1" x1="7.84" y1="20.15" x2="9.5" y2="19.19"/><line class="cls-1" x1="14.49" y1="16.31" x2="16.15" y2="15.35"/><line class="cls-1" x1="7.84" y1="20.15" x2="9.5" y2="19.19"/><path class="cls-1" d="M17.75,17.75h1a3.84,3.84,0,0,0,3.83-3.58,2.09,2.09,0,0,0,0-.25,3.84,3.84,0,0,0-3.84-3.84h-1V8.16A5.77,5.77,0,0,0,12,2.41h-.22A5.69,5.69,0,0,0,7,5.38a1.58,1.58,0,0,0-.13.26,6.49,6.49,0,0,0-.57,2.52h0A4.78,4.78,0,0,0,1.45,13a1.41,1.41,0,0,0,0,.2,4.78,4.78,0,0,0,4.78,4.59"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

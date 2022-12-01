@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Radio_Active" data-name="Radio Active"><circle class="cls-1" cx="12" cy="12" r="10.5"/><path class="cls-1" d="M15.6,5.82,13,10.42a1.87,1.87,0,0,0-1.9,0L8.4,5.82a7.1,7.1,0,0,1,7.2,0Z"/><path class="cls-1" d="M11.05,13.71,8.45,18.2a7.13,7.13,0,0,1-3.61-6.13h5.25A1.88,1.88,0,0,0,11.05,13.71Z"/><path class="cls-1" d="M19.16,12.07a7.13,7.13,0,0,1-3.61,6.13L13,13.71a1.88,1.88,0,0,0,1-1.64Z"/><path class="cls-1" d="M13.91,12.07a1.88,1.88,0,0,1-1,1.64,1.81,1.81,0,0,1-1.9,0,1.89,1.89,0,0,1,0-3.29,1.87,1.87,0,0,1,1.9,0A1.87,1.87,0,0,1,13.91,12.07Z"/><path class="cls-1" d="M13.91,12.07a1.88,1.88,0,0,1-1,1.64,1.81,1.81,0,0,1-1.9,0,1.89,1.89,0,0,1,0-3.29,1.87,1.87,0,0,1,1.9,0A1.87,1.87,0,0,1,13.91,12.07Z"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Beat_rate_report" data-name="Beat rate report"><path class="cls-1" d="M18.7,17.65V22.5H1.52v-20H6.3v1A1.91,1.91,0,0,0,8.2,5.32H12a1.92,1.92,0,0,0,1.91-1.91v-1H18.7V8.66"/><polyline class="cls-1" points="20.61 13.91 16.8 13.91 14.89 11.04 12.02 15.82 9.16 10.09 7.25 13.91 1.52 13.91"/><line class="cls-1" x1="21.57" y1="13.91" x2="23.48" y2="13.91"/><path class="cls-1" d="M13.93,1.5V3.41A1.92,1.92,0,0,1,12,5.32H8.2A1.91,1.91,0,0,1,6.3,3.41V1.5Z"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

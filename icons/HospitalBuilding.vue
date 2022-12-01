@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="hospital_building" data-name="hospital building"><line class="cls-1" x1="2.45" y1="1.5" x2="21.55" y2="1.5"/><line class="cls-1" x1="9.14" y1="6.27" x2="14.86" y2="6.27"/><line class="cls-1" x1="12" y1="3.41" x2="12" y2="9.14"/><line class="cls-1" x1="9.14" y1="11.05" x2="11.05" y2="11.05"/><line class="cls-1" x1="12.95" y1="11.05" x2="14.86" y2="11.05"/><line class="cls-1" x1="9.14" y1="14.86" x2="11.05" y2="14.86"/><line class="cls-1" x1="12.95" y1="14.86" x2="14.86" y2="14.86"/><line class="cls-1" x1="5.32" y1="11.05" x2="7.23" y2="11.05"/><line class="cls-1" x1="5.32" y1="14.86" x2="7.23" y2="14.86"/><line class="cls-1" x1="5.32" y1="18.68" x2="7.23" y2="18.68"/><line class="cls-1" x1="16.77" y1="11.05" x2="18.68" y2="11.05"/><line class="cls-1" x1="16.77" y1="14.86" x2="18.68" y2="14.86"/><line class="cls-1" x1="16.77" y1="18.68" x2="18.68" y2="18.68"/><polygon class="cls-1" points="13.91 22.5 19.64 22.5 22.5 22.5 22.5 10.09 19.64 8.18 19.64 1.5 4.36 1.5 4.36 8.18 1.5 10.09 1.5 22.5 4.36 22.5 10.09 22.5 10.09 18.68 13.91 18.68 13.91 22.5"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="roll_brush" data-name="roll brush"><polygon class="cls-1" points="20.61 12.03 14.85 14.91 11.98 20.66 8.14 8.19 20.61 12.03"/><rect class="cls-1" x="4.11" y="4.16" width="1.36" height="1.36" transform="translate(-2.02 4.8) rotate(-45)"/><rect class="cls-1" x="18.49" y="4.16" width="1.36" height="1.36" transform="translate(2.19 14.97) rotate(-45)"/><rect class="cls-1" x="4.11" y="18.54" width="1.36" height="1.36" transform="translate(-12.19 9.01) rotate(-45)"/><path class="cls-1" d="M5.29,4.39l0,0a9.46,9.46,0,0,1,13.37,0h0"/><path class="cls-1" d="M4.3,5.32h0a9.5,9.5,0,0,0,0,13.42h0"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

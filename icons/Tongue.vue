@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="tongue"><path class="cls-1" d="M12,22.5h0a6.68,6.68,0,0,1-6.68-6.68V10.09A1.91,1.91,0,0,1,7.23,8.18h2.86A1.91,1.91,0,0,1,12,10.09h0a1.91,1.91,0,0,1,1.91-1.91h2.86a1.91,1.91,0,0,1,1.91,1.91v5.73A6.68,6.68,0,0,1,12,22.5Z"/><line class="cls-1" x1="12" y1="18.68" x2="12" y2="10.09"/><path class="cls-1" d="M5.32,10.09A3.82,3.82,0,0,1,1.5,6.27h0A4.78,4.78,0,0,1,6.27,1.5H17.73A4.78,4.78,0,0,1,22.5,6.27h0a3.82,3.82,0,0,1-3.82,3.82"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

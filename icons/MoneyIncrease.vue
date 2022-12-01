@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="send_money" data-name="send money"><circle class="cls-1" cx="12" cy="15.84" r="2.86"/><polyline class="cls-1" points="9.14 5.34 12 2.48 14.86 5.34"/><path class="cls-1" d="M12,3.43V7.25a1.91,1.91,0,0,0,1.91,1.91H22.5V22.52H1.5V9.16H8.18"/><line class="cls-2" x1="4.36" y1="15.84" x2="6.27" y2="15.84"/><line class="cls-2" x1="17.73" y1="15.84" x2="19.64" y2="15.84"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1,.cls-2{fill:none;stroke:currentColor;stroke-miterlimit:10;}.cls-1{stroke-linecap:square;}
+</style>

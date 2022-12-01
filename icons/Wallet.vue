@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="wallet"><path class="cls-1" d="M20.59,1.5V7.23H4.36a2.87,2.87,0,0,1,0-5.73Z"/><path class="cls-1" d="M18.68,13H22.5a0,0,0,0,1,0,0v3.82a0,0,0,0,1,0,0H18.68a1.91,1.91,0,0,1-1.91-1.91v0A1.91,1.91,0,0,1,18.68,13Z"/><path class="cls-1" d="M22.5,7.23V22.5H3.41A1.92,1.92,0,0,1,1.5,20.59V4.36A2.86,2.86,0,0,0,4.36,7.23Z"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-linecap:square;stroke-miterlimit:10;}
+</style>

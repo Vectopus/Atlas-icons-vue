@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path class="cls-1" d="M16.77,15.28c3.4.63,5.73,1.92,5.73,3.4,0,2.11-4.7,3.82-10.5,3.82S1.5,20.79,1.5,18.68c0-1.48,2.33-2.77,5.73-3.4"/><path class="cls-1" d="M7.23,16.77c0,1.05,2.14,1.91,4.77,1.91s4.77-.86,4.77-1.91"/><ellipse class="cls-1" cx="12" cy="9.14" rx="4.77" ry="1.91"/><polyline class="cls-1" points="7.23 16.77 7.23 15.28 7.23 9.14"/><polyline class="cls-1" points="16.77 16.77 16.77 15.28 16.77 9.14"/><path class="cls-1" d="M14.29,4.94a2.29,2.29,0,1,1-4.58,0C9.71,3.67,12,1.5,12,1.5S14.29,3.67,14.29,4.94Z"/><line class="cls-1" x1="12" y1="9.14" x2="12" y2="7.23"/></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

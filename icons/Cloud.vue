@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path class="cls-1" d="M19.53,11.13a5.37,5.37,0,0,0,.11-1.06A5.73,5.73,0,0,0,8.42,8.43a2.77,2.77,0,0,0-1.19-.27A2.87,2.87,0,0,0,4.36,11a.51.51,0,0,0,0,.13,3.81,3.81,0,0,0,.94,7.51H18.68a3.81,3.81,0,0,0,.85-7.53Z"/></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

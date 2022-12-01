@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Rontgen"><rect class="cls-1" x="1.5" y="1.5" width="21" height="21"/><path class="cls-1" d="M9.14,14.86H12a0,0,0,0,1,0,0v1.91a1.91,1.91,0,0,1-1.91,1.91h-1a1.91,1.91,0,0,1-1.91-1.91v0a1.91,1.91,0,0,1,1.91-1.91Z"/><path class="cls-1" d="M12,14.86h2.86a1.91,1.91,0,0,1,1.91,1.91v0a1.91,1.91,0,0,1-1.91,1.91h-1A1.91,1.91,0,0,1,12,16.77V14.86a0,0,0,0,1,0,0Z"/><line class="cls-1" x1="12" y1="4.36" x2="12" y2="14.86"/><line class="cls-1" x1="7.23" y1="6.27" x2="16.77" y2="6.27"/><line class="cls-1" x1="6.27" y1="9.14" x2="17.73" y2="9.14"/><line class="cls-1" x1="7.23" y1="12" x2="16.77" y2="12"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

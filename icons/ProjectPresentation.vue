@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="presentation_standing" data-name="presentation standing"><line class="cls-1" x1="0.5" y1="1.48" x2="23.5" y2="1.48"/><line class="cls-1" x1="0.5" y1="16.81" x2="23.5" y2="16.81"/><rect class="cls-1" x="2.42" y="1.48" width="19.17" height="15.33"/><line class="cls-1" x1="12" y1="16.81" x2="12" y2="23.52"/><polyline class="cls-1" points="8.17 23.52 8.17 22.56 12 19.69"/><polyline class="cls-1" points="15.83 23.52 15.83 22.56 12 19.69"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="briefcase_office" data-name="briefcase office"><rect class="cls-1" x="1.5" y="6.27" width="21" height="15.27" rx="1.91"/><path class="cls-1" d="M3.41,6.27H20.59A1.91,1.91,0,0,1,22.5,8.18v1A3.82,3.82,0,0,1,18.68,13H5.32A3.82,3.82,0,0,1,1.5,9.14v-1A1.91,1.91,0,0,1,3.41,6.27Z"/><line class="cls-1" x1="7.23" y1="12.95" x2="7.23" y2="14.86"/><line class="cls-1" x1="16.77" y1="12.95" x2="16.77" y2="14.86"/><polygon class="cls-1" points="15.82 6.27 8.18 6.27 9.14 2.46 14.86 2.46 15.82 6.27"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-linecap:square;stroke-miterlimit:10;}
+</style>

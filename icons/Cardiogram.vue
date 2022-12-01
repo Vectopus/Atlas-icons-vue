@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Cardiogram"><path class="cls-1" d="M3.41,1.5H20.59A1.91,1.91,0,0,1,22.5,3.41V14.86a0,0,0,0,1,0,0H1.5a0,0,0,0,1,0,0V3.41A1.91,1.91,0,0,1,3.41,1.5Z"/><polyline class="cls-1" points="1.5 14.86 1.5 22.5 22.5 22.5 22.5 14.86"/><line class="cls-1" x1="4.36" y1="18.68" x2="6.27" y2="18.68"/><line class="cls-1" x1="8.18" y1="18.68" x2="10.09" y2="18.68"/><line class="cls-1" x1="19.64" y1="18.68" x2="14.86" y2="18.68"/><polyline class="cls-1" points="17.73 9.14 15.82 9.14 13.91 6.27 11.04 11.04 8.18 5.32 6.27 9.14 2.46 9.14"/><line class="cls-1" x1="18.68" y1="9.14" x2="20.59" y2="9.14"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

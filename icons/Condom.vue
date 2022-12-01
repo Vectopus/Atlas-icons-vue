@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  id="condom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path class="cls-1" d="M20.48,1.5h0A2,2,0,0,0,19,2.09l-.36.36H17.4a3.86,3.86,0,0,0-2.7,1.12L3.41,14.86l5.73,5.73L20.43,9.3a3.86,3.86,0,0,0,1.12-2.7V5.32L21.91,5a2,2,0,0,0,.59-1.44h0A2,2,0,0,0,20.48,1.5Z"/><line class="cls-1" x1="1.5" y1="12.95" x2="11.05" y2="22.5"/></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

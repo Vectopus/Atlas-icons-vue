@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="call_canter" data-name="call canter"><path class="cls-1" d="M21.5,18.69,17.69,22.5A16.19,16.19,0,0,1,1.5,6.31L5.31,2.5l4.76,4.76L6.74,10.6a6.66,6.66,0,0,0,6.66,6.66l3.34-3.33Z"/><line class="cls-1" x1="15.79" y1="18.69" x2="18.64" y2="21.55"/><line class="cls-1" x1="4.36" y1="7.26" x2="7.21" y2="10.12"/><line class="cls-1" x1="13.88" y1="6.31" x2="21.5" y2="6.31"/><line class="cls-1" x1="17.69" y1="2.5" x2="17.69" y2="10.12"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

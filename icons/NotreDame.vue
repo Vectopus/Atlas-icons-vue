@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon class="cls-1" points="15.83 2.41 15.83 9.11 8.17 9.11 8.17 2.41 3.39 2.41 3.39 17.72 3.39 22.5 8.17 22.5 15.83 22.5 20.61 22.5 20.61 17.72 20.61 2.41 15.83 2.41"/><line class="cls-1" x1="1.48" y1="15.8" x2="22.52" y2="15.8"/><circle class="cls-1" cx="12" cy="12.93" r="0.48"/><line class="cls-1" x1="7.22" y1="12.93" x2="7.22" y2="15.8"/><line class="cls-1" x1="16.78" y1="12.93" x2="16.78" y2="15.8"/><line class="cls-1" x1="12" y1="18.67" x2="12" y2="22.5"/><line class="cls-1" x1="15.83" y1="18.67" x2="15.83" y2="22.5"/><line class="cls-1" x1="8.17" y1="18.67" x2="8.17" y2="22.5"/><line class="cls-1" x1="1.48" y1="9.11" x2="8.17" y2="9.11"/><line class="cls-1" x1="15.83" y1="9.11" x2="22.52" y2="9.11"/><line class="cls-1" x1="1.48" y1="5.28" x2="3.39" y2="5.28"/><line class="cls-1" x1="20.61" y1="5.28" x2="22.52" y2="5.28"/><line class="cls-1" x1="5.3" y1="0.5" x2="5.3" y2="2.41"/><line class="cls-1" x1="18.7" y1="0.5" x2="18.7" y2="2.41"/><line class="cls-1" x1="8.17" y1="5.28" x2="15.83" y2="5.28"/><line class="cls-1" x1="0.52" y1="22.5" x2="23.48" y2="22.5"/></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

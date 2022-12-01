@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Medicine"><path class="cls-1" d="M8.18,5.32V7.23L5.32,10.09v10.5A1.9,1.9,0,0,0,7.23,22.5h9.54a1.9,1.9,0,0,0,1.91-1.91V10.09L15.82,7.23V5.32"/><rect class="cls-1" x="7.23" y="1.5" width="9.55" height="3.82"/><line class="cls-1" x1="8.18" y1="14.86" x2="15.82" y2="14.86"/><line class="cls-1" x1="12" y1="11.05" x2="12" y2="18.68"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

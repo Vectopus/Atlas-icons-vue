@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon class="cls-1" points="12.48 10.09 11.52 10.09 8.66 7.23 9.61 5.32 14.39 5.32 15.34 7.23 12.48 10.09"/><path class="cls-1" d="M1.5,16.77h21a0,0,0,0,1,0,0v2.86a2.86,2.86,0,0,1-2.86,2.86H4.36A2.86,2.86,0,0,1,1.5,19.64V16.77A0,0,0,0,1,1.5,16.77Z"/><path class="cls-1" d="M6.27,1.5H17.73a2.86,2.86,0,0,1,2.86,2.86V16.77a0,0,0,0,1,0,0H3.41a0,0,0,0,1,0,0V4.36A2.86,2.86,0,0,1,6.27,1.5Z"/><path class="cls-1" d="M16.38,16.77a4.83,4.83,0,0,0,.39-1.91,4.77,4.77,0,0,0-9.54,0,4.83,4.83,0,0,0,.39,1.91"/></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

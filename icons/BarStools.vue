@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect class="cls-1" x="2.45" y="1.5" width="19.09" height="3.82"/><path class="cls-1" d="M18.68,9.14h1.91A1.91,1.91,0,0,1,22.5,11V13a0,0,0,0,1,0,0H16.77a0,0,0,0,1,0,0V11A1.91,1.91,0,0,1,18.68,9.14Z"/><path class="cls-1" d="M3.41,9.14H5.32A1.91,1.91,0,0,1,7.23,11V13a0,0,0,0,1,0,0H1.5a0,0,0,0,1,0,0V11A1.91,1.91,0,0,1,3.41,9.14Z"/><line class="cls-1" x1="12" y1="10.09" x2="12" y2="22.5"/><line class="cls-1" x1="15.82" y1="22.5" x2="8.18" y2="22.5"/><line class="cls-1" x1="4.36" y1="12.95" x2="4.36" y2="22.5"/><line class="cls-1" x1="7.23" y1="22.5" x2="1.5" y2="22.5"/><line class="cls-1" x1="19.64" y1="12.95" x2="19.64" y2="22.5"/><line class="cls-1" x1="22.5" y1="22.5" x2="16.77" y2="22.5"/><line class="cls-1" x1="1.5" y1="17.73" x2="4.36" y2="17.73"/><line class="cls-1" x1="19.64" y1="17.73" x2="22.5" y2="17.73"/><polygon class="cls-1" points="12 10.09 8.18 5.32 15.82 5.32 12 10.09"/></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

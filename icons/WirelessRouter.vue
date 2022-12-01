@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><rect class="cls-1" x="1.5" y="13.95" width="21" height="7.64" rx="1.91"/><line class="cls-1" x1="4.36" y1="23.5" x2="4.36" y2="21.59"/><line class="cls-1" x1="19.64" y1="23.5" x2="19.64" y2="21.59"/><circle class="cls-2" cx="5.32" cy="17.77" r="0.95"/><line class="cls-1" x1="10.09" y1="17.77" x2="12" y2="17.77"/><line class="cls-1" x1="13.91" y1="17.77" x2="15.82" y2="17.77"/><line class="cls-1" x1="17.73" y1="17.77" x2="19.64" y2="17.77"/><circle class="cls-2" cx="12" cy="10.14" r="0.95"/><path class="cls-1" d="M9.3,7.44a3.82,3.82,0,0,1,5.4,0"/><path class="cls-1" d="M6.6,4.74a7.62,7.62,0,0,1,10.8,0"/></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}.cls-2{fill:currentColor;}
+</style>

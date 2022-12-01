@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="roll_brush" data-name="roll brush"><rect class="cls-1" x="9.97" y="-0.2" width="4.07" height="24.41" transform="translate(12.01 -4.97) rotate(45)"/><line class="cls-1" x1="16.76" y1="4.55" x2="19.47" y2="7.26"/><line class="cls-1" x1="12.97" y1="1.46" x2="14.89" y2="1.46"/><line class="cls-1" x1="21.6" y1="12.01" x2="23.52" y2="12.01"/><line class="cls-1" x1="7.21" y1="5.3" x2="9.13" y2="5.3"/><line class="cls-1" x1="16.8" y1="14.89" x2="18.72" y2="14.89"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="computer"><rect class="cls-1" x="1.5" y="1.5" width="21" height="16.23" rx="2.86"/><polygon class="cls-1" points="15.82 22.5 8.18 22.5 9.14 17.73 14.86 17.73 15.82 22.5"/><line class="cls-1" x1="18.68" y1="22.5" x2="5.32" y2="22.5"/><path class="cls-2" d="M10.09,12h2.39a1.43,1.43,0,0,0,1.43-1.43h0a1.43,1.43,0,0,0-1.43-1.43h-1A1.43,1.43,0,0,1,10.09,7.7h0a1.43,1.43,0,0,1,1.43-1.43h2.39"/><line class="cls-2" x1="12" y1="5.32" x2="12" y2="6.27"/><line class="cls-2" x1="12" y1="12" x2="12" y2="12.95"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1,.cls-2{fill:none;stroke:currentColor;stroke-miterlimit:10;}.cls-2{stroke-linecap:square;}
+</style>

@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path class="cls-1" d="M22.52,16.58c0,1.85-4.71,2.09-10.52,2.09S1.48,18.43,1.48,16.58,6.19,11,12,11,22.52,14.74,22.52,16.58Z"/><polyline class="cls-1" points="21.55 17.77 19.65 22.5 4.35 22.5 2.45 17.77"/><line class="cls-1" x1="6.26" y1="15.8" x2="8.17" y2="15.8"/><line class="cls-1" x1="11.04" y1="14.85" x2="12.96" y2="14.85"/><line class="cls-1" x1="15.83" y1="15.8" x2="17.74" y2="15.8"/><path class="cls-1" d="M7.22.5c0,1.11-1,1.11-1,2.23s1,1.12,1,2.23-1,1.12-1,2.24"/><path class="cls-1" d="M13,1.46c0,1.11-1,1.11-1,2.23s1,1.11,1,2.23S12,7,12,8.15"/><path class="cls-1" d="M18.7.5c0,1.11-1,1.11-1,2.23s1,1.12,1,2.23-1,1.12-1,2.24"/></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

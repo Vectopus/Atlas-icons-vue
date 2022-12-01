@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="bone"><path class="cls-1" d="M10.08,10.54l3.71-3.7a3.34,3.34,0,1,1,6-2.58"/><path class="cls-1" d="M4.26,19.76a3.28,3.28,0,0,1-1.78-.93,3.34,3.34,0,0,1,4.37-5l3.69-3.71"/><path class="cls-1" d="M5.19,16.81a3.34,3.34,0,1,0,5,.37h0L11,16.4l2.48-2.49h0l.23-.23L16.38,11s.77-.77.78-.76h0a3.34,3.34,0,1,0-.36-5"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

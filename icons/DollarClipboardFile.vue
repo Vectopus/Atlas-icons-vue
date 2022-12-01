@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="clipboard_money" data-name="clipboard money"><path class="cls-1" d="M20.59,2.45V22.5H3.41v-20H8.18v1a1.92,1.92,0,0,0,1.91,1.91h3.82a1.92,1.92,0,0,0,1.91-1.91v-1Z"/><path class="cls-2" d="M10.09,16.77h2.39a1.43,1.43,0,0,0,1.43-1.43h0a1.43,1.43,0,0,0-1.43-1.43h-1a1.43,1.43,0,0,1-1.43-1.43h0a1.43,1.43,0,0,1,1.43-1.43h2.39"/><line class="cls-2" x1="12" y1="9.14" x2="12" y2="11.05"/><line class="cls-2" x1="12" y1="16.77" x2="12" y2="18.68"/><path class="cls-1" d="M15.82,1.5V3.41a1.92,1.92,0,0,1-1.91,1.91H10.09A1.92,1.92,0,0,1,8.18,3.41V1.5Z"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1,.cls-2{fill:none;stroke:currentColor;stroke-miterlimit:10;}.cls-2{stroke-linecap:square;}
+</style>

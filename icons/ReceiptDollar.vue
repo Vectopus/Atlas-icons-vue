@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="bill_alternatif" data-name="bill alternatif"><path class="cls-1" d="M10,13.5h2.5A1.5,1.5,0,0,0,14,12h0a1.5,1.5,0,0,0-1.5-1.5h-1A1.5,1.5,0,0,1,10,9h0a1.5,1.5,0,0,1,1.5-1.5H14"/><line class="cls-1" x1="12" y1="5.5" x2="12" y2="7.5"/><line class="cls-1" x1="12" y1="13.5" x2="12" y2="15.5"/><polygon class="cls-1" points="4 22.5 6.66 20.5 9.33 22.5 11.99 20.5 14.66 22.5 17.33 20.5 20 22.5 21 21.5 21 1.5 3 1.5 3 21.5 4 22.5"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-linecap:square;stroke-miterlimit:10;}
+</style>

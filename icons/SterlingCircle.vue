@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="Pound_coin" data-name="Pound coin"><circle class="cls-1" cx="12" cy="12" r="10.5"/><path class="cls-1" d="M14.86,7.7a2.38,2.38,0,0,0-2.38-2.38h0A2.39,2.39,0,0,0,10.09,7.7v2.84a11.08,11.08,0,0,1-1.91,6.23h6.68"/><line class="cls-1" x1="8.18" y1="11.05" x2="12" y2="11.05"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-linecap:square;stroke-miterlimit:10;}
+</style>

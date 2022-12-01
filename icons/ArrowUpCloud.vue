@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="roll_brush" data-name="roll brush"><path class="cls-1" d="M12,12v7.67h6.72a3.86,3.86,0,0,0,2.71-1.12,3.9,3.9,0,0,0,1.11-2.45v-.26A3.83,3.83,0,0,0,18.72,12h-1V10.07A5.77,5.77,0,0,0,12,4.32h-.21A5.73,5.73,0,0,0,7,7.29c0,.09-.1.17-.14.26a6.67,6.67,0,0,0-.56,2.52h0a4.78,4.78,0,0,0-4.8,4.8,1.34,1.34,0,0,0,0,.2,4.8,4.8,0,0,0,4.79,4.59H9.12"/><polyline class="cls-1" points="14.88 14.87 12 11.99 9.13 14.87"/></g></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>

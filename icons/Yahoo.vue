@@ -1,0 +1,23 @@
+
+<template>
+    <svg :width="size" :height="size" :stroke-width="weight"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon class="cls-1" points="12.96 7.23 9.14 17.41 7.23 22.5 3.41 22.5 5.32 17.41 1.5 7.23 5.32 7.23 7.23 12.31 9.14 7.23 12.96 7.23"/><polygon class="cls-1" points="22.5 1.5 18.92 11.04 15.1 11.04 18.68 1.5 22.5 1.5"/><circle class="cls-1" cx="15.82" cy="14.86" r="1.91"/></svg>
+</template>
+<script>
+    export default {
+        props: {
+            size: {
+                type: Number,
+                default: 24,
+                required: false,
+            },
+            weight: {
+                type: Number,
+                default: 2,
+                required: false,
+            },
+        }
+    }
+</script>
+<style scoped>
+    .cls-1{fill:none;stroke:currentColor;stroke-miterlimit:10;}
+</style>
