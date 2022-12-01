@@ -4,15 +4,12 @@
 
 ##### _Made by [Vectopus](http://vectopus.com/)._
 
-### Simple use
+### How to use
 Install Vue package.
-
 ```html
 npm i @vectopus/atlas-icons-vue
 ```
-
 Use Atlas Icons package in your ```main.js```
-
 ```js
 import {createApp} from 'vue'
 import App from './App.vue'
@@ -24,7 +21,8 @@ app.mount('#app')
 
 Embed icon selector into component template.
 
-``` <Atlas icon="AudioAlbum" :size="24" />
+```html
+<Atlas icon="AudioAlbum" :size="24" />
 ```
 
 
