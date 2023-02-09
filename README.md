@@ -28,6 +28,7 @@ Embed icon selector into component template.
 
 ### Related Packages
 - [Atlas Icons React](https://github.com/Vectopus/Atlas-icons-react)
+- [Atlas Icons React Native](https://github.com/Vectopus/Atlas-icons-react-native)
 - [Atlas Icons Webfont](https://github.com/Vectopus/Atlas-icons-font)
 - [Atlas Icons Flutter](https://github.com/Vectopus/Atlas-icons-flutter)
 

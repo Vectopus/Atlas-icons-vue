@@ -1,6 +1,6 @@
 
 <template>
-    <svg :width="size" :height="size" :stroke-width="weight"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polyline class="cls-1" points="1.5 5.32 9.14 12.96 12.96 9.14 22.5 18.68"/><polyline class="cls-1" points="17.73 18.68 22.5 18.68 22.5 13.91"/></svg>
+    <svg :width="size" :height="size" :stroke-width="weight"  id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><line class="cls-1" x1="12" y1="21.5" x2="12" y2="0.5"/><polyline class="cls-1" points="4.36 13.86 12 21.5 19.64 13.86"/></svg>
 </template>
 <script>
     export default {
