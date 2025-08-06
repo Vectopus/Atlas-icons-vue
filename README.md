@@ -2,18 +2,18 @@
 
 #### Open source [icons library](http://atlasicons.vectopus.com/), Icons available in SVG format, Font, Figma, Adobe XD and Iconjar Libraries.
 
-##### _Made by [Vectopus](http://vectopus.com/)._
+##### _Made by [VectorIcons](http://vectoricons.net/)._
 
 ### How to use
 Install Vue package.
 ```html
-npm i @vectopus/atlas-icons-vue
+npm i @vectoricons/atlas-icons-vue
 ```
 Use Atlas Icons package in your ```main.js```
 ```js
 import {createApp} from 'vue'
 import App from './App.vue'
-import Atlas from '@vectopus/atlas-icons-vue'
+import Atlas from '@vectoricons/atlas-icons-vue'
 const app = createApp(App)
 app.use(Atlas);
 app.mount('#app')
